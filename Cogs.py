@@ -23,7 +23,7 @@ async def on_message(message):
     global say
     global author
     global inbox
-    content = message.content #message.content là nội dung câu chat của bạn
+    content = message.content
     say = message.channel.send
     author = message.author
     inbox = message.author.send
