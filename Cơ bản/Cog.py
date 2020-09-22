@@ -49,5 +49,5 @@ class Greetings(commands.Cog):
     async def on_message(self, message):
         if 'bruh' in content:
             await say('bruh')
-bot.run('NzQ2NjM1MDUxMTI2NjIwMTYw.X0DMEw.WFq7jpmJwRmZyEgtFe28DpIODBM')
+bot.run('TOKEN')
 
